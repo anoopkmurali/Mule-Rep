@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-batch:1.1.8.RELEASE'
+    compile 'mysql:mysql-connector-java:5.1.31'
+    compile 'commons-dbcp:commons-dbcp:1.4'
+}
+
